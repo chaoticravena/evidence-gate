@@ -1,5 +1,7 @@
 # evidence-gate
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Pre-production audit that scans a codebase across 8 fixed categories before anything ships. Built on one premise that most audit skills skip: a "pass" without evidence is worse than no audit, because it creates false confidence. This skill requires proof for every category marked clean — a test run, a real request against a real environment, an actual command output — not a summary of what the code looked like on read-through.
 
 ## How this differs from a generic ship-gate/quality-gate skill
