@@ -34,6 +34,10 @@ After installing, restart your Claude Code session so it's discovered. Invoke wi
 - `/evidence-gate [category]` — run a single category (quick recheck only, not a substitute for a full run).
 - `/evidence-gate diff` — run all 8 categories, scoped to files changed since the last commit/deploy marker.
 
+## See also
+
+[blind-spot-hunt](https://github.com/chaoticravena/blind-spot-hunt) — a complementary skill for after evidence-gate: a hypothesis-driven adversarial pass for business-logic bugs outside evidence-gate's 8 fixed categories.
+
 ## License
 
 MIT — free to use, fork, and modify. If you build on this, a link back is appreciated but not required.
